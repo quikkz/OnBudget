@@ -1,8 +1,10 @@
-﻿using OnBudget.Helpers;
+﻿using Newtonsoft.Json;
+using OnBudget.Helpers;
 using OnBudget.Models;
 using OnBudget.Services;
 
 using Xamarin.Forms;
+using static OnBudget.Constants.GeneralConstants;
 
 namespace OnBudget.ViewModels
 {

@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
   <parameter name="MS_TableConnectionString-Web.config Connection String" description="MS_TableConnectionString Connection String used in web.config by the application to access the database." defaultValue="Data Source=tcp:onbudget20170924101531dbserver.database.windows.net,1433;Initial Catalog=OnBudget20170924101531_db;User Id=quikkz@onbudget20170924101531dbserver;Password=ramoneS123" tags="SqlConnectionString">
-    <parameterEntry kind="XmlFile" scope="C:\\Users\\HampusRamstedt\\Documents\\OneDrive\\Personal\\OnBudget\\OnBudget\\OnBudget\.MobileAppService\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MS_TableConnectionString']/@connectionString" />
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\HampusRamstedt\\Documents\\OneDrive\\Personal\\OnBudget\\git\\OnBudget\\OnBudget\.MobileAppService\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MS_TableConnectionString']/@connectionString" />
   </parameter>
   <parameter name="MS_NotificationHubConnectionString-Web.config Connection String" description="MS_NotificationHubConnectionString Connection String used in web.config by the application to access the database." defaultValue="Endpoint=sb://[your namespace].servicebus.windows.net;SharedSecretIssuer=owner;SharedSecretValue=[your secret]" tags="SqlConnectionString">
-    <parameterEntry kind="XmlFile" scope="C:\\Users\\HampusRamstedt\\Documents\\OneDrive\\Personal\\OnBudget\\OnBudget\\OnBudget\.MobileAppService\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MS_NotificationHubConnectionString']/@connectionString" />
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\HampusRamstedt\\Documents\\OneDrive\\Personal\\OnBudget\\git\\OnBudget\\OnBudget\.MobileAppService\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MS_NotificationHubConnectionString']/@connectionString" />
   </parameter>
 </parameters>

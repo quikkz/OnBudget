@@ -11,8 +11,8 @@
 namespace OnBudget {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\HampusRamstedt\\Documents\\OneDrive\\Personal\\OnBudget\\OnBudget\\OnBudget\\Ap" +
-        "p.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\HampusRamstedt\\Documents\\OneDrive\\Personal\\OnBudget\\git\\OnBudget\\OnBudge" +
+        "t\\App.xaml")]
     public partial class App : global::Xamarin.Forms.Application {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

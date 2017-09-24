@@ -92,7 +92,6 @@ namespace OnBudget.Services
 
                     gotNewToken = await RefreshToken(client.MobileService);
 
-
                     //Otherwise if refreshing the token failed or Facebook\Twitter is being used, prompt the user to log back in via the login screen
                     if (!gotNewToken)
                     {

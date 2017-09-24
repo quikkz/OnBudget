@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:vm="clr-namespace:OnBudget.ViewModels;"
              x:Class="OnBudget.Views.LoginPage"
+             xmlns:i18n="clr-namespace:UsingResxLocalization;assembly=UsingResxLocalization"
              Title="OnBudget">
   <ContentPage.BindingContext>
     <vm:LoginViewModel/>
@@ -18,30 +19,15 @@
         <ColumnDefinition Width="*"/>
         <ColumnDefinition Width="*"/>
       </Grid.ColumnDefinitions>
-      <StackLayout Spacing="30" Grid.ColumnSpan="2">
-       <!-- <Image  HorizontalOptions="Center"
-                VerticalOptions="Center"
-                WidthRequest="95" HeightRequest="95"
-                Source="profile_generic.png" 
-                Aspect="AspectFill"
-                x:Name="CircleImageAvatar"/> -->
+            <StackLayout Spacing="30" Grid.ColumnSpan="2">
 
-        <Label HorizontalTextAlignment="Center"
+                <Label HorizontalTextAlignment="Center"
                 HorizontalOptions="FillAndExpand"
                 LineBreakMode="WordWrap"
                 FontSize="Large"
-                Text="Sign in with your account to save and sync items"/>
+                Text="Välkommen till On Budget, din partner när det kommer till kontroll"/>
       </StackLayout>
 
-
-      <Button
-          Grid.Row="1"
-          Grid.Column="0"
-          Text="Not Now"
-          Command="{Binding NotNowCommand}"
-          x:Name="ButtonNowNow"
-          HorizontalOptions="FillAndExpand"
-          IsEnabled="{Binding IsNotBusy}"/>
 			
       <Button
           Grid.Row="1"

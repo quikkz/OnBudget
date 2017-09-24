@@ -15,7 +15,7 @@ namespace OnBudget.Services
 {
     public class AzureDataStore : IDataStore<Item>
     {
-        public bool UseAuthentication => false;
+        public bool UseAuthentication => true;
         public MobileServiceAuthenticationProvider AuthProvider => MobileServiceAuthenticationProvider.Facebook;
 
         bool isInitialized;

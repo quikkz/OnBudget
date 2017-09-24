@@ -11,8 +11,8 @@
 namespace OnBudget.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\HampusRamstedt\\Documents\\OneDrive\\Personal\\OnBudget\\OnBudget\\OnBudget\\Vi" +
-        "ews\\ItemDetailPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\HampusRamstedt\\Documents\\OneDrive\\Personal\\OnBudget\\git\\OnBudget\\OnBudge" +
+        "t\\Views\\ItemDetailPage.xaml")]
     public partial class ItemDetailPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

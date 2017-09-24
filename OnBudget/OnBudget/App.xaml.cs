@@ -5,10 +5,12 @@ using OnBudget.Services;
 using OnBudget.Views;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using System.Threading.Tasks;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace OnBudget
 {
+
     public partial class App : Application
     {
         //MUST use HTTPS, neglecting to do so will result in runtime errors on iOS
@@ -32,11 +34,7 @@ namespace OnBudget
         {
             if (!AzureNeedsSetup && !Settings.IsLoggedIn)
             {
-                Current.MainPage = new NavigationPage(new LoginPage())
-                {
-                    BarBackgroundColor = (Color)Current.Resources["Primary"],
-                    BarTextColor = Color.White
-                };
+                Current.MainPage = new LoginPage();
             }
             else
             {
@@ -46,22 +44,7 @@ namespace OnBudget
 
         public static void GoToMainPage()
         {
-            Current.MainPage = new TabbedPage
-            {
-                Children =
-                {
-                    new NavigationPage(new ItemsPage())
-                    {
-                        Title = "Browse",
-                        Icon = Device.OnPlatform("tab_feed.png",null,null)
-                    },
-                    new NavigationPage(new AboutPage())
-                    {
-                        Title = "About",
-                        Icon = Device.OnPlatform("tab_about.png",null,null)
-                    },
-                }
-            };
+            Current.MainPage = new NavigationPage(new ItemsPage());
         }
     }
 }

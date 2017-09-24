@@ -24612,12 +24612,12 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\Users\\HampusRamstedt\\Documents\\OneDrive\\Personal\\OnBudget\\OnBudget\\OnBudget.UWP\\OnBudget.UWP.csproj",
+      "projectUniqueName": "C:\\Users\\HampusRamstedt\\Documents\\OneDrive\\Personal\\OnBudget\\git\\OnBudget\\OnBudget.UWP\\OnBudget.UWP.csproj",
       "projectName": "OnBudget.UWP",
-      "projectPath": "C:\\Users\\HampusRamstedt\\Documents\\OneDrive\\Personal\\OnBudget\\OnBudget\\OnBudget.UWP\\OnBudget.UWP.csproj",
-      "projectJsonPath": "C:\\Users\\HampusRamstedt\\Documents\\OneDrive\\Personal\\OnBudget\\OnBudget\\OnBudget.UWP\\project.json",
+      "projectPath": "C:\\Users\\HampusRamstedt\\Documents\\OneDrive\\Personal\\OnBudget\\git\\OnBudget\\OnBudget.UWP\\OnBudget.UWP.csproj",
+      "projectJsonPath": "C:\\Users\\HampusRamstedt\\Documents\\OneDrive\\Personal\\OnBudget\\git\\OnBudget\\OnBudget.UWP\\project.json",
       "packagesPath": "C:\\Users\\HampusRamstedt\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HampusRamstedt\\Documents\\OneDrive\\Personal\\OnBudget\\OnBudget\\OnBudget.UWP\\obj\\",
+      "outputPath": "C:\\Users\\HampusRamstedt\\Documents\\OneDrive\\Personal\\OnBudget\\git\\OnBudget\\OnBudget.UWP\\obj\\",
       "projectStyle": "ProjectJson",
       "configFilePaths": [
         "C:\\Users\\HampusRamstedt\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -24630,8 +24630,8 @@
       "frameworks": {
         "uap10.0.10586": {
           "projectReferences": {
-            "C:\\Users\\HampusRamstedt\\Documents\\OneDrive\\Personal\\OnBudget\\OnBudget\\OnBudget\\OnBudget.csproj": {
-              "projectPath": "C:\\Users\\HampusRamstedt\\Documents\\OneDrive\\Personal\\OnBudget\\OnBudget\\OnBudget\\OnBudget.csproj"
+            "C:\\Users\\HampusRamstedt\\Documents\\OneDrive\\Personal\\OnBudget\\git\\OnBudget\\OnBudget\\OnBudget.csproj": {
+              "projectPath": "C:\\Users\\HampusRamstedt\\Documents\\OneDrive\\Personal\\OnBudget\\git\\OnBudget\\OnBudget\\OnBudget.csproj"
             }
           }
         }

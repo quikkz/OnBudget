@@ -6,6 +6,8 @@ using OnBudget.Helpers;
 using OnBudget.Services;
 
 using Xamarin.Forms;
+using System.Net.Http;
+using Newtonsoft.Json.Linq;
 
 namespace OnBudget.ViewModels
 {
@@ -57,7 +59,7 @@ namespace OnBudget.ViewModels
 
             if (dataStore.UseAuthentication)
             {
-                var user = await authentication.LoginAsync(dataStore.MobileService, dataStore.AuthProvider, App.LoginParameters);
+                var user = await authentication.LoginAsync(dataStore.MobileService, dataStore.AuthProvider, App.LoginParameters);           
                 if (user == null)
                 {
                     MessagingCenter.Send(new MessagingCenterAlert

@@ -28,7 +28,7 @@ namespace OnBudget.MobileAppService
             Database.SetInitializer(new DatabaseInitializer());
 
             // To prevent Entity Framework from modifying your database schema, use a null database initializer
-             Database.SetInitializer<DbContext>(null);
+            //Database.SetInitializer<DbContext>(null);
 
             MobileAppSettingsDictionary settings = config.GetMobileAppSettingsProvider().GetMobileAppSettings();
 
