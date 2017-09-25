@@ -280,3 +280,6 @@ C:\Users\HampusRamstedt\Documents\OneDrive\Personal\OnBudget\git\OnBudget\OnBudg
 C:\Users\HampusRamstedt\Documents\OneDrive\Personal\OnBudget\git\OnBudget\OnBudget.MobileAppService\obj\Release\OnBudget.MobileAppService.csproj.CoreCompileInputs.cache
 C:\Users\HampusRamstedt\Documents\OneDrive\Personal\OnBudget\git\OnBudget\OnBudget.MobileAppService\obj\Release\OnBudget.MobileAppService.dll
 C:\Users\HampusRamstedt\Documents\OneDrive\Personal\OnBudget\git\OnBudget\OnBudget.MobileAppService\obj\Release\OnBudget.MobileAppService.pdb
+C:\Users\HampusRamstedt\Documents\OneDrive\Personal\OnBudget\git\OnBudget\OnBudget.MobileAppService\obj\Release\OnBudget.MobileAppService.Migrations.InitialCreate.resources
+C:\Users\HampusRamstedt\Documents\OneDrive\Personal\OnBudget\git\OnBudget\OnBudget.MobileAppService\obj\Release\OnBudget.MobileAppService.Migrations.InitialTables.resources
+C:\Users\HampusRamstedt\Documents\OneDrive\Personal\OnBudget\git\OnBudget\OnBudget.MobileAppService\obj\Release\OnBudget.MobileAppService.csproj.GenerateResource.Cache

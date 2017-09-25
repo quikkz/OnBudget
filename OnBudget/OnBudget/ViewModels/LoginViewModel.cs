@@ -73,6 +73,8 @@ namespace OnBudget.ViewModels
 
                 Settings.AuthToken = user?.MobileServiceAuthenticationToken ?? string.Empty;
                 Settings.UserId = user?.UserId ?? string.Empty;
+
+
             }
 
             return true;

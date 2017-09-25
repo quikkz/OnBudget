@@ -165,13 +165,3 @@ C:\Users\HampusRamstedt\Documents\OneDrive\Personal\OnBudget\git\OnBudget\OnBudg
 C:\Users\HampusRamstedt\Documents\OneDrive\Personal\OnBudget\git\OnBudget\OnBudget.Android\obj\Debug\res\drawable\moneybag.jpg
 C:\Users\HampusRamstedt\Documents\OneDrive\Personal\OnBudget\git\OnBudget\OnBudget.Android\obj\Debug\R.cs.flag
 C:\Users\HampusRamstedt\Documents\OneDrive\Personal\OnBudget\git\OnBudget\OnBudget.Android\obj\Debug\uploadflags.txt
-C:\Users\HampusRamstedt\Documents\OneDrive\Personal\OnBudget\git\OnBudget\OnBudget.Android\bin\Debug\OnBudget.dll.mdb
-C:\Users\HampusRamstedt\Documents\OneDrive\Personal\OnBudget\git\OnBudget\OnBudget.Android\bin\Debug\OnBudget.Android.dll.mdb
-C:\Users\HampusRamstedt\Documents\OneDrive\Personal\OnBudget\git\OnBudget\OnBudget.Android\obj\Debug\android\assets\FormsViewGroup.dll.mdb
-C:\Users\HampusRamstedt\Documents\OneDrive\Personal\OnBudget\git\OnBudget\OnBudget.Android\obj\Debug\android\assets\OnBudget.Android.dll.mdb
-C:\Users\HampusRamstedt\Documents\OneDrive\Personal\OnBudget\git\OnBudget\OnBudget.Android\obj\Debug\android\assets\OnBudget.dll.mdb
-C:\Users\HampusRamstedt\Documents\OneDrive\Personal\OnBudget\git\OnBudget\OnBudget.Android\obj\Debug\android\assets\Plugin.Connectivity.Abstractions.dll.mdb
-C:\Users\HampusRamstedt\Documents\OneDrive\Personal\OnBudget\git\OnBudget\OnBudget.Android\obj\Debug\android\assets\Plugin.Connectivity.dll.mdb
-C:\Users\HampusRamstedt\Documents\OneDrive\Personal\OnBudget\git\OnBudget\OnBudget.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
-C:\Users\HampusRamstedt\Documents\OneDrive\Personal\OnBudget\git\OnBudget\OnBudget.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
-C:\Users\HampusRamstedt\Documents\OneDrive\Personal\OnBudget\git\OnBudget\OnBudget.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb

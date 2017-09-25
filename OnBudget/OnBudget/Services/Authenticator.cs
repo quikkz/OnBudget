@@ -74,7 +74,7 @@ namespace OnBudget.Services
                 if (isReauthenticating)
                     return response;
 
-                var client = DependencyService.Get<IDataStore<Item>>() as AzureDataStore;
+                var client = DependencyService.Get<IDataStore<User>>() as UserService;
 
                 string authToken = client.MobileService.CurrentUser.MobileServiceAuthenticationToken;
                 await semaphore.WaitAsync();

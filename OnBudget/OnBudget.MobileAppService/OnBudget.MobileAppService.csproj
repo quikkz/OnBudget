@@ -181,8 +181,22 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\Startup.MobileApp.cs" />
+    <Compile Include="Constants\BusinessEnums.cs" />
+    <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Controllers\ItemController.cs" />
+    <Compile Include="DataObjects\Income.cs" />
     <Compile Include="DataObjects\Item.cs" />
+    <Compile Include="DataObjects\Expense.cs" />
+    <Compile Include="DataObjects\User.cs" />
+    <Compile Include="Migrations\201709241104019_InitialCreate.cs" />
+    <Compile Include="Migrations\201709241104019_InitialCreate.Designer.cs">
+      <DependentUpon>201709241104019_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201709252027071_InitialTables.cs" />
+    <Compile Include="Migrations\201709252027071_InitialTables.Designer.cs">
+      <DependentUpon>201709252027071_InitialTables.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\MasterDetailContext.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -199,6 +213,14 @@
   <ItemGroup>
     <None Include="packages.config" />
     <None Include="Properties\PublishProfiles\OnBudget20170924101531 - Web Deploy.pubxml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201709241104019_InitialCreate.resx">
+      <DependentUpon>201709241104019_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709252027071_InitialTables.resx">
+      <DependentUpon>201709252027071_InitialTables.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
